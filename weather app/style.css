@@ -1,0 +1,28 @@
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  background: #e0f7fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+input, button {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.weather-result {
+  margin-top: 20px;
+}
